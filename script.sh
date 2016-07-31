@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hash="03fed5b990fbc2d64de9085ef9c66d24586b9380"
+hash="03fed5b990fbc2d64de9085ef9c66d24586b9380" # omglolwtf
 lolnode=/tmp/.rofl
 
 lolUp(){
