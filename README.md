@@ -1,2 +1,2 @@
 # backd00rshit
-Various backdoor stuff
+Turn a shell script into an suid static binary. Great for suid backdoors. 
