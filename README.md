@@ -1,4 +1,4 @@
-# backd00rshit
+# /bin/lol
 - Turn a shell script into an suid static binary. 
 - Great for suid backdoors. 
 - Included is a sample script and a shell script to automate the generation of "/bin/lol"
