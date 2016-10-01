@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hash="03fed5b990fbc2d64de9085ef9c66d24586b9380" # omglolwtf
+hash="a396572be01a534f1b6f9284ec20907dc9aede7e" # backdoorzrock
 lolnode=/tmp/.rofl
 
 lolUp(){
