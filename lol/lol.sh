@@ -3,7 +3,7 @@ lolnode=/tmp/.rofl
 trap "rm -f /tmp/$lolnode /tmp/.pass" 1 2 8
 read -p "Enter the Magic Word:" magic
 printf $magic >/tmp/.pass
-hash="03fed5b990fbc2d64de9085ef9c66d24586b9380"
+hash="a396572be01a534f1b6f9284ec20907dc9aede7e" #backdoorzrock
 
 if echo "$hash */tmp/.pass" | sha1sum -c - > /dev/null 2>&1 ; then
   echo Access Granted!
